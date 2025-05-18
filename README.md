@@ -2,7 +2,7 @@
 
 *Interactive Node-Based App Powered by tldraw + AI*
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTuUsuario%2Fai-canvas)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CarlosPProjects/tldraw-ai)
 ![Tldraw AI](https://github.com/user-attachments/assets/a91ac862-51cd-4d51-a189-8a21c7e5398a)
 
 
