@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Connected Visual Canvas ✨
 
-## Getting Started
+*Interactive Node-Based App Powered by tldraw + AI*
 
-First, run the development server:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTuUsuario%2Fai-canvas)
+![App Preview](https://github.com/user-attachments/assets/your-canvas-image-preview.png)
+
+## 📺 Youtube - 👉 [Tutorial](https://www.youtube.com/watch?v=your-video-id)
+
+---
+
+## 🌟 Features
+
+* **Visual AI Canvas**
+
+  * Create custom shapes connected to each other
+  * Automatically transfer context between nodes
+  * AI-generated responses using all related nodes
+* **Intelligent Canvas**
+
+  * Editable visual flow with programmable behavior
+  * Automatic propagation of inputs between shapes
+  * Integration with OpenAI or any language API
+* **Modern UI**
+
+  * 100% visual interface with **tldraw SDK**
+  * Responsive and stylized components with TailwindCSS
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend**: Next.js 15 (App Router), TailwindCSS
+* **Canvas Engine**: tldraw SDK
+* **AI**: OpenAI API (or your favorite provider)
+* **Tools**: TypeScript, Zustand, Vercel AI SDK (optional)
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+
+* Node.js 20+ / pnpm 9+
+* OpenAI API Key (or another provider)
+* Vercel account for deployment (optional)
+
+### Installation
+
+```bash
+git clone https://github.com/TuUsuario/ai-canvas.git
+cd ai-canvas
+bun install # o pnpm install
+```
+
+### Configuration
+
+1. Create a `.env.local` file:
+
+```env
+OPENAI_API_KEY=your_openai_key
+```
+> You can add more keys depending on the AI provider you use.
+
+### Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 AI Interaction Examples
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```plaintext
+🟪 Input Node: "Create content ideas for YouTube"
+⬇
+🟪 Instruction Node: "Simplify and categorize the ideas"
+⬇
+🟪 Output: "1. Step-by-step tutorials. 2. Comparison videos. 3. Educational shorts."
+```
 
-## Learn More
+```plaintext
+🟪 Input: "Use Next.js and Tailwind in each project"
+🟪 Input: "Create visual tools"
+⬇
+🟪 Combined Result: "Design a visual project generator with Next.js + Tailwind for quick MVPs."
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Deploy on Vercel:
 
-## Deploy on Vercel
+```bash
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Add the same variables to the Vercel dashboard.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Project Structure
+
+```
+/src
+├── app                  # Main routes and layout
+├── components           # Custom UI and Shapes
+├── editor               # Tldraw editor logic
+└── lib                  # Utility functions
+```
+
+---
+
+## 📌 Resources
+
+* [tldraw.dev](https://www.tldraw.dev/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Next.js 15](https://nextjs.org/)
+* [OpenAI Platform](https://platform.openai.com/)
+
+---
+
+
+**Need Help?**  
+Open an issue or contact [carlos@cgaravito.dev](mailto:carlos@cgaravito.dev)
+
+[![GitHub Stars](https://img.shields.io/github/stars/carlospprojects/taskly-yt?style=social)](https://github.com/carlospprojects/taskly-yt)
