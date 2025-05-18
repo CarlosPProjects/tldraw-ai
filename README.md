@@ -6,7 +6,7 @@
 ![Tldraw AI](https://github.com/user-attachments/assets/a91ac862-51cd-4d51-a189-8a21c7e5398a)
 
 
-## 📺 Youtube - 👉 [Tutorial](https://www.youtube.com/watch?v=your-video-id)
+## 📺 Youtube - 👉 [Tutorial](https://youtu.be/rX-jBUNelSs)
 
 ---
 
@@ -49,8 +49,8 @@
 ### Installation
 
 ```bash
-git clone https://github.com/TuUsuario/ai-canvas.git
-cd ai-canvas
+git clone https://github.com/CarlosPProjects/tldraw-ai
+cd tldraw-ai
 bun install # o pnpm install
 ```
 
@@ -66,7 +66,7 @@ OPENAI_API_KEY=your_openai_key
 ### Run locally
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 ---
@@ -116,10 +116,12 @@ vercel
 
 ## 📌 Resources
 
-* [tldraw.dev](https://www.tldraw.dev/)
+* [Tldraw](https://www.tldraw.dev/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [Next.js 15](https://nextjs.org/)
 * [OpenAI Platform](https://platform.openai.com/)
+* [Vercel AI SDK](https://ai-sdk.dev/)
+* [Tiptap](https://tiptap.dev/)
 
 ---
 
@@ -127,4 +129,4 @@ vercel
 **Need Help?**  
 Open an issue or contact [carlos@cgaravito.dev](mailto:carlos@cgaravito.dev)
 
-[![GitHub Stars](https://img.shields.io/github/stars/carlospprojects/taskly-yt?style=social)](https://github.com/carlospprojects/taskly-yt)
+[![GitHub Stars](https://img.shields.io/github/stars/carlospprojects/tldraw-ai?style=social)](https://github.com/carlospprojects/tldraw-ai)
