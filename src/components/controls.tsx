@@ -1,6 +1,6 @@
 "use client"
 
-import { Eraser, Image, MessageSquare, Pencil, Square, TerminalSquare } from "lucide-react"
+import { Eraser, Image, MessageSquare, Pencil, Square } from "lucide-react"
 import { ArrowRight } from "lucide-react"
 import { MousePointer, Type } from "lucide-react"
 import { track, useEditor } from "tldraw"
